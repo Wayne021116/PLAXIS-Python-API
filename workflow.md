@@ -87,8 +87,7 @@ python slope_analysis.py
 ```
 
 The script will automatically connect to PLAXIS, build the model, run the calculation, and print the results.
-```
 
-## Viewing Results After Calculation
+## 5. Viewing Results After Calculation
 
 Once the script prints `✅ Project saved`, click **View calculation results** in the PLAXIS Input window. The software will automatically launch the Output module and connect to port `10001`. The script will then connect to the Output server and continue running automatically — no manual action is required. Results will be printed directly in the terminal, including phase-by-phase displacements, stresses, and other relevant quantities. Do not close the Output window while the script is still running, as the connection to port `10001` must remain active for result extraction to succeed.
