@@ -57,10 +57,10 @@ passwd = "your password"
 
 **Change 2 — Set your save path:**
 
-Find the `g_i.save(...)` line in each script and update the path to a folder that exists on your machine:
+Find the `save_path` line in each script and update the path to a folder that exists on your machine:
 ```python
 # Example — change this to your own path
-g_i.save(r"D:\PLAXIS\your_project_name.p2dx")
+save_path = r"D:\PLAXIS\your_project_name.p2dx"
 ```
 
 Also update the Output server open path to match:
