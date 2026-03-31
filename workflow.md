@@ -34,7 +34,7 @@ Once complete, your Python interpreter can communicate with PLAXIS 2D via the re
 Before running any script, you must enable the remote scripting server inside PLAXIS 2D:
 
 1. Open **PLAXIS 2D**
-2. Go to **Expert (专业) → Configure Remote Scripting Server**
+2. Go to **Expert (X) → Configure Remote Scripting Server**
 3. Check **Enable remote scripting server**
 4. Set the **port** to `10000` (default)
 5. Set a **password** of your choice (minimum 4 characters)
